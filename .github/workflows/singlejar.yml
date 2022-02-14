@@ -3,7 +3,7 @@
 
 # Some comments
 
-name: Sinlge jar file
+name: Single jar file
 on:
   push:
     branches: [ $default-branch ]
