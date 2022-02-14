@@ -9,7 +9,11 @@ on:
     branches: [ $default-branch ]
   pull_request:
     branches: [ $default-branch ]
-
+  workflow_dispatch:
+    inputs:
+      someInput:
+        description: 'Some Boolean Input'
+        type: boolean
 jobs:
   build:
     runs-on: ubuntu-latest
