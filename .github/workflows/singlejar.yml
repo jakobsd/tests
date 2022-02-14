@@ -3,7 +3,7 @@
 
 # Some comments
 
-name: Java CI with Maven
+name: Sinlge jar file
 on:
   push:
     branches: [ $default-branch ]
